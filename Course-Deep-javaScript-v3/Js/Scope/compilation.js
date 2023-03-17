@@ -195,8 +195,41 @@ var global = "Kyle"; // formal declaration it will make red marbel.
 
 // console.log( 'Glaw' > 'Glea' );
 // console.log('A' > 'Z');//false
-console.log('c' > 'A');//true
+// console.log('c' > 'A');//true
 
 
-console.log('&&' > '&');//true
+// console.log('&&' > '&');//true
 
+// isAbleTODrive(19);
+// isAbleTODrive(21);
+// isAbleTODrive(14);
+// isAbleTODrive(NaN);
+
+// function xyx(a){
+//     return a == a;
+// }
+// console.log(xyx(100));
+// function lessThan100(a,b){
+//     return a + b <= 100 ;
+// }
+
+// console.log(lessThan100(22, 15), true);
+// console.log(lessThan100(83, 34), false);
+// console.log(lessThan100(3, 77), true);
+
+//create a function that takes a argument and give true if its age is greater than or equal to 18. otherwise return false
+// console.log(isAble(19));
+// console.log(isAble(14));
+// console.log(isAble(35));
+// console.log(isAble(8));
+
+// var a = [{1:'hello'}, {2:'oye'}, {3: 'bhai'}];
+// var b = a.indexOf({3: 'bhai'});;
+
+
+// var a = [{key:'hello'}, {key:'oye'}, {key: 'bhai'}].findIndex(eachVal => eachVal === 'bhai');
+// console.log(a());
+[{key:'hello'}, {key:'oye'}, {key: 'bhai'}].findIndex(eachVal =>{
+    console.log(eachVal);
+    return eachVal.key === 'bhai'});
+// [{key:'hello'}, {key:'oye'}, {key: 'bhai'}].indexOf('bhai');
