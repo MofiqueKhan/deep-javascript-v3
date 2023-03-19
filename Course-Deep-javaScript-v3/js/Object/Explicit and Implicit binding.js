@@ -17,3 +17,26 @@ var workshop2 = {
 
 ask.call(workshop1,'This is Explicit Binding') // Explicit Binding;
 ask.call(workshop2,'This is Explicit Binding')
+
+
+function myFunc() {
+    console.log(obj.name)
+}
+
+const obj = {
+    name : 'Kyle',
+    myFunc,
+}
+
+obj.myFunc() // Implicit Binding;
+
+function myFunc2() {
+    console.log(obj2.name)
+}
+
+const obj2 = {
+    name : 'Simpson',
+    myFunc2,
+}
+
+myFunc2.call(obj2); // Emplicit Binding;
